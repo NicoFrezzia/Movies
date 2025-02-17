@@ -109,7 +109,7 @@ function MovieDetails() {
           <p>No similar movies found</p>
         )}
       </div>
-    </div>
+    </div> 
   );
 }
 
