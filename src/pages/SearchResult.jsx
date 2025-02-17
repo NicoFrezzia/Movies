@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import { searchMovies } from "../api";
 import MovieCard from "../components/MovieCard";
-
+ 
 function SearchResults() {
   const { query } = useParams();
   const [searchResults, setSearchResults] = useState([]);

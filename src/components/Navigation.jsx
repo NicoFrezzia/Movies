@@ -3,7 +3,7 @@ import { useState } from "react";
 
 function Navigation() {
   const [searchTerm, setSearchTerm] = useState("");
-  const navigate = useNavigate();
+  const navigate = useNavigate(); 
 
   const handleSearch = (event) => {
     event.preventDefault();

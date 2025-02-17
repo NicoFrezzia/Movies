@@ -9,7 +9,7 @@ export const fetchTrendingMovies = async (page = 1) => {
   } catch (error) {
     console.error("Error fetching movies:", error);
     return [];
-  }
+  } 
 };
 
 export const fetchMovieDetails = async (id) => {

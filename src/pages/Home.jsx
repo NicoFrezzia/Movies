@@ -9,7 +9,7 @@ function Home() {
 
   useEffect(() => {
     fetchTrendingMovies().then(setTrendingMovies);
-    fetchGenres().then((genreData) => {
+    fetchGenres().then((genreData) => { 
       setGenres(genreData);
       genreData.forEach((genre) => {
         fetchMoviesByGenre(genre.id).then((movies) => {
